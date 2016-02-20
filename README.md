@@ -1,5 +1,21 @@
-Apigility Skeleton Application
-==============================
+Apigility Skeleton Application + Doctrine + oAuth2 Doctrine + ZfcUser
+=====================================================================
+
+This is the Apigility skeleton with :
+ - zfcampus/zf-apigility-documentation-apiblueprint
+ - doctrine/doctrine-orm-module
+ - zfcampus/zf-apigility-doctrine
+ - api-skeletons/zf-oauth2-doctrine
+ - zf-commons/zfc-user
+ - zf-commons/zfc-user-doctrine-orm
+
+A PHP API Fuse toolkit with Doctrine inside! Thanks to this Fuse, you'll go fast on creating your API app ;)
+
+I've read some developers encountering difficulties to install and configure the Doctrine Stuff with Apigility. Here it is.
+
+Just composer install the php public/index.php orm:schema-tool:create and launch 
+
+The regular documentation of the skeleton below...
 
 Requirements
 ------------
